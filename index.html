@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f4f8fc" />
+  <meta name="description" content="Um pequeno site com grandes chances de arrancar um sorriso." />
+  <title>central de besteirinhas™</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="confetti-bg" aria-hidden="true">
+    <span>✦</span><span>☁</span><span>✧</span><span>◡</span><span>✦</span><span>☻</span>
+  </div>
+
+  <main class="page">
+    <header class="topbar">
+      <div class="brand-mark">:D</div>
+      <div>
+        <p class="brand-name">central de besteirinhas™</p>
+        <p class="brand-subtitle">um site oficialmente não importante</p>
+      </div>
+      <span class="live-pill"><span></span> online</span>
+    </header>
+
+    <section class="hero">
+      <div class="badge">📢 ATENÇÃO, SER HUMANO</div>
+      <h1>Você foi convocado<br />para <span>dar uma risadinha.</span></h1>
+      <p class="intro">Não precisa entender. Não precisa fazer sentido. Só precisa continuar, porque a situação pode piorar (no bom sentido).</p>
+
+      <div class="character" aria-label="Desenho de um rosto sorridente">
+        <div class="sun-rays"></div>
+        <div class="face">
+          <span class="eye eye-left"></span><span class="eye eye-right"></span>
+          <span class="cheek cheek-left"></span><span class="cheek cheek-right"></span>
+          <span class="smile"></span>
+        </div>
+        <span class="orbit orbit-one">✦</span>
+        <span class="orbit orbit-two">!</span>
+        <span class="orbit orbit-three">☻</span>
+      </div>
+
+      <div class="joke-card" aria-live="polite">
+        <div class="joke-topline"><span>ARQUIVO CONFIDENCIAL</span><span id="jokeCount">#001</span></div>
+        <div class="joke-emoji" id="jokeEmoji">🧠</div>
+        <h2 id="jokeTitle">Pensamento aleatório do dia</h2>
+        <p id="jokeText">Se os pinguins têm joelhos, por que eles andam como se estivessem atrasados para uma reunião?</p>
+        <div class="joke-footer"><span>nível de seriedade: <b>0%</b></span><span>fonte: vozes da cabeça</span></div>
+      </div>
+
+      <button class="main-button" id="nextButton">Quero mais besteira <span>↗</span></button>
+      <button class="bonus-button" id="complimentButton">Preciso de um elogio aleatório</button>
+      <p class="tiny-note">⚠️ pode causar risos inesperados e vontade de mandar pra alguém</p>
+    </section>
+
+    <footer>
+      <span>feito com 0% de responsabilidade</span>
+      <span>© Departamento de Bobagens</span>
+    </footer>
+  </main>
+
+  <div class="toast" id="toast" role="status"></div>
+  <script src="script.js"></script>
+</body>
+</html>
